@@ -243,4 +243,33 @@
       },
     },
   });
+
+  // Product slider active
+  $(".product__slider").owlCarousel({
+    loop: true,
+    nav: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    animateOut: "fadeOut",
+    animateIn: "fadeIn",
+    item: 4,
+    margin: 30,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      576: {
+        items: 2,
+      },
+      768: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+      1200: {
+        items: 4,
+      },
+    },
+  });
 })(jQuery);
