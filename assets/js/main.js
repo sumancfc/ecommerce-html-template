@@ -325,4 +325,25 @@
     }
     $button.parent().find("input").val(newVal);
   });
+
+  //Price range
+  var sliderrange = $("#slider__range");
+  var amountprice = $("#amount");
+  $(function () {
+    sliderrange.slider({
+      range: true,
+      min: 0,
+      max: 1200,
+      values: [0, 800],
+      slide: function (event, ui) {
+        amountprice.val("$" + ui.values[0] + " - $" + ui.values[1]);
+      },
+    });
+    amountprice.val(
+      "$" +
+        sliderrange.slider("values", 0) +
+        " - $" +
+        sliderrange.slider("values", 1)
+    );
+  });
 })(jQuery);
