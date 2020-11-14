@@ -186,6 +186,24 @@
   .product__details-content h2 {
     font-size: 25px;
   }
+
+  .cart__table-content table thead > tr th {
+    padding: 21px 35px 22px;
+  }
+
+  .cart__tax,
+  .discount__code-wrapper {
+    padding: 45px 18px 50px;
+  }
+
+  .cart__tax .title__wrap h4.cart__bottom-title,
+  .discount__code-wrapper .title__wrap h4.cart__bottom-title {
+    font-size: 16px;
+  }
+
+  .grand__totall {
+    padding: 45px 18px 50px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -273,6 +291,56 @@
 
   .product__details-content h2 {
     font-size: 22px;
+  }
+
+  .product__details-content .product__ratting-review {
+    margin: 0 0 18px;
+  }
+
+  .product__details-content .pro__details-color-wrap {
+    margin: 0 0 20px;
+  }
+
+  .product__details-content .pro__details-size {
+    margin: 0 0 20px;
+  }
+
+  .product__details-content .pro__details-price-wrap {
+    margin: 0 0 20px;
+  }
+
+  .product__details-content .pro__details-price-wrap .product__price span {
+    font-size: 25px;
+  }
+
+  .product__details-content .pro__details-compare-wishlist {
+    margin: 20px 0 20px;
+  }
+
+  .breadcrumb__area {
+    height: 300px;
+    background-position: 100%;
+  }
+
+  .cart__shiping-update-wrapper .cart__shiping-update > a,
+  .cart__shiping-update-wrapper .cart__clear > button,
+  .cart__shiping-update-wrapper .cart__clear > a {
+    padding: 18px 25px 17px;
+    font-size: 13px;
+  }
+
+  .cart__shiping-update-wrapper .cart__clear > button {
+    margin-right: 15px;
+  }
+
+  .cart__tax,
+  .discount__code-wrapper {
+    padding: 45px 20px 50px;
+  }
+
+  .grand__totall {
+    padding: 45px 20px 50px;
+    margin-top: 30px;
   }
 }
 
@@ -543,6 +611,53 @@
 
   .product__details-content.quickview__content {
     margin-top: 30px;
+  }
+  /* Product modal ends */
+  .breadcrumb__area {
+    height: 280px;
+    background-position: 100%;
+  }
+
+  .breadcrumb__content h2 {
+    font-size: 28px;
+  }
+
+  .cart__main-area.pt-85 {
+    padding-top: 45px;
+  }
+
+  .cart__table-content table thead > tr th {
+    padding: 21px 20px 22px;
+  }
+
+  .cart__table-content table tbody > tr td {
+    padding: 30px 0 30px 10px;
+  }
+
+  .cart__shiping-update-wrapper {
+    display: block;
+    padding: 30px 0px 15px;
+  }
+
+  .cart__shiping-update-wrapper .cart__shiping-update > a,
+  .cart__shiping-update-wrapper .cart__clear > button,
+  .cart__shiping-update-wrapper .cart__clear > a {
+    padding: 18px 40px 17px;
+    margin: 0 0 15px;
+  }
+
+  .cart__tax,
+  .discount__code-wrapper {
+    padding: 45px 18px 50px;
+  }
+
+  .cart__tax .title__wrap h4.cart__bottom-title,
+  .discount__code-wrapper .title__wrap h4.cart__bottom-title {
+    font-size: 17px;
+  }
+
+  .discount__code-wrapper {
+    margin: 30px 0;
   }
 }
 
