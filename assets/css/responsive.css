@@ -204,6 +204,20 @@
   .grand__totall {
     padding: 45px 18px 50px;
   }
+
+  .about__content h2 {
+    font-size: 32px;
+    margin-bottom: 18px;
+    padding-bottom: 22px;
+  }
+
+  .about__content .about__btn {
+    margin-top: 30px;
+  }
+
+  .about__img {
+    margin-right: 0px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -341,6 +355,48 @@
   .grand__totall {
     padding: 45px 20px 50px;
     margin-top: 30px;
+  }
+
+  .about__content h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    padding-bottom: 19px;
+  }
+
+  .about__content p.paragraph {
+    margin-bottom: 12px;
+  }
+
+  .about__content .about__btn {
+    margin-top: 20px;
+  }
+
+  .about__img {
+    margin-right: 0px;
+  }
+
+  .feature__border {
+    padding: 43px 20px 10px 20px;
+  }
+
+  .feature__border.feature__border-abt {
+    padding: 43px 20px 10px 20px;
+  }
+
+  .feature__wrap {
+    text-align: center;
+  }
+
+  .banner__wrap .banner__content-left {
+    top: 35px;
+  }
+
+  .banner__wrap .banner__content-left h2 {
+    font-size: 17px;
+  }
+
+  .banner__wrap .banner__content-right h4 {
+    letter-spacing: 3.4px;
   }
 }
 
@@ -660,19 +716,58 @@
     margin: 30px 0;
   }
 
-  .contact__info-wrap h3,
-  .get__in-touch-wrap h3 {
-    margin: 0 0 24px;
+  .about__content {
+    margin-top: 30px;
   }
 
-  .contact__info-wrap.mb-60,
-  .get__in-touch-wrap.mb-60 {
-    margin-bottom: 13px;
+  .about__content h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    padding-bottom: 19px;
   }
 
-  .contact__from input,
-  .contact__from textarea {
-    margin-bottom: 20px;
+  .about__content p.paragraph {
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .about__content .about__btn {
+    margin-top: 20px;
+  }
+
+  .about__img {
+    margin-right: 0px;
+  }
+
+  .feature__border {
+    padding: 43px 20px 10px 20px;
+  }
+
+  .feature__wrap {
+    text-align: center;
+  }
+
+  .banner__wrap .banner__content-left h2 {
+    font-size: 20px;
+  }
+
+  .banner__wrap .banner__content-right h2 {
+    font-size: 50px;
+    line-height: 40px;
+  }
+
+  .banner__wrap .banner__content-right h3 {
+    margin: 5px 0 10px;
+    line-height: 1;
+  }
+
+  .banner__wrap .banner__content-right h4 {
+    letter-spacing: 1.4px;
+  }
+
+  .banner__area.pt-50 {
+    padding-top: 20px;
   }
 }
 

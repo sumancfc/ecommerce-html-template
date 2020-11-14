@@ -3598,20 +3598,19 @@ textarea {
 
 /* Contact Section Starts */
 
-.contact__info-wrap h3,
-.get__in-touch-wrap h3 {
+.info__wrap h3 {
   text-transform: capitalize;
   font-size: 25px;
   font-weight: 600;
   margin: 0 0 30px;
 }
 
-.single__contact-info {
+.contact__info {
   background-color: #f7f7f7;
   padding: 48px 10px 49px;
 }
 
-.single__contact-info > i {
+.contact__info > i {
   font-size: 36px;
   color: #ff5151;
   -webkit-transition: all 0.3s ease 0s;
@@ -3619,7 +3618,7 @@ textarea {
   display: block;
 }
 
-.single__contact-info h4 {
+.contact__info h4 {
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.4px;
@@ -3627,13 +3626,13 @@ textarea {
   margin: 19px 0 10px;
 }
 
-.single__contact-info p {
+.contact__info p {
   letter-spacing: 0.4px;
   font-size: 15px;
   color: #333;
 }
 
-.single__contact-info ul li {
+.contact__info ul li {
   border-bottom: 2px solid #fff;
   letter-spacing: 0.4px;
   margin-bottom: 30px;
@@ -3641,13 +3640,13 @@ textarea {
   font-size: 15px;
 }
 
-.single__contact-info ul li:last-child {
+.contact__info ul li:last-child {
   padding-bottom: 0px;
   margin-bottom: 0px;
   border-bottom: none;
 }
 
-.single__contact-info ul li i {
+.contact__info ul li i {
   font-size: 18px;
   margin-right: 7px;
   color: #ff5151;
@@ -3658,18 +3657,18 @@ textarea {
   display: inline-block;
 }
 
-.single__contact-info ul li:hover i {
+.contact__info ul li:hover i {
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running tada;
   animation: 500ms ease-in-out 0s normal none 1 running tada;
 }
 
-.single__contact-info:hover > i {
+.contact__info:hover > i {
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running tada;
   animation: 500ms ease-in-out 0s normal none 1 running tada;
 }
 
-.contact__from input,
-.contact__from textarea {
+.form__wrap input,
+.form__wrap textarea {
   background: #f7f7f7 none repeat scroll 0 0;
   border: none;
   color: #000;
@@ -3679,12 +3678,12 @@ textarea {
   position: relative;
 }
 
-.contact__from textarea {
+.form__wrap textarea {
   height: 200px;
   padding: 20px 20px;
 }
 
-.contact__from button {
+.form__wrap button {
   border: none;
   background-color: transparent;
   text-transform: capitalize;
@@ -3696,6 +3695,179 @@ textarea {
   font-weight: 500;
 }
 
-.contact__from button:hover {
+.form__wrap button:hover {
   background-color: #000;
+}
+/* Cart page ends */
+
+/* About Page */
+.about__content h2 {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  padding-bottom: 28px;
+  position: relative;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+.about__content h2 span {
+  color: #ff5151;
+}
+
+.about__content h2::before {
+  background-color: #ff5151;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  width: 80px;
+}
+
+.about__content p {
+  margin: 0;
+  color: #333;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.about__content p.paragraph {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 28px;
+}
+
+.about__content .about__btn {
+  margin-top: 45px;
+}
+
+.about__content .about__btn a {
+  display: inline-block;
+  background-color: #ff5151;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1;
+  z-index: 1;
+  padding: 12px 22px;
+  border-radius: 5px;
+}
+
+.about__img {
+  margin-right: 30px;
+}
+
+.about__img img {
+  width: 100%;
+}
+
+.feature__border {
+  border: 1px solid #f1f1f1;
+  padding: 63px 0 30px;
+}
+
+.feature__wrap h5 {
+  font-size: 16px;
+  margin: 18px 0 6px;
+}
+
+.feature__wrap p {
+  margin: 0;
+}
+
+.feature__wrap:hover img {
+  -webkit-animation: 500ms ease-in-out 0s normal none 1 running flip;
+  animation: 500ms ease-in-out 0s normal none 1 running flip;
+}
+/* Banner Section */
+
+.banner__wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner__wrap a img {
+  width: 100%;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.banner__wrap .banner__content-left {
+  position: absolute;
+  top: 62px;
+  left: 30px;
+}
+
+.banner__wrap .banner__content-left h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #393939;
+  margin: 0;
+  line-height: 1;
+}
+
+.banner__wrap .banner__content-btn {
+  position: absolute;
+  left: 30px;
+  bottom: 37px;
+}
+
+.banner__wrap .banner__content-btn a {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  line-height: 1;
+  border-bottom: 1px solid #a7a6a6;
+}
+
+.banner__wrap .banner__content-btn a:hover {
+  border-bottom: 1px solid #ff5151;
+}
+
+.banner__wrap .banner__content-right {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  text-align: center;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.banner__wrap .banner__content-right h2 {
+  font-size: 92px;
+  color: #ffffff;
+  margin: 0;
+  font-weight: bold;
+  line-height: 68px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.banner__wrap .banner__content-right h3 {
+  font-size: 28px;
+  color: #000000;
+  margin: 9px 0 27px;
+  font-weight: 300;
+  letter-spacing: 7.4px;
+}
+
+.banner__wrap .banner__content-right h4 {
+  font-size: 18px;
+  color: #000000;
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: 6.4px;
+}
+
+.banner__wrap:hover a img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
