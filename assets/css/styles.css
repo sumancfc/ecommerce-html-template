@@ -3606,20 +3606,6 @@ textarea {
   margin: 0 0 30px;
 }
 
-@media only screen and (max-width: 767px) {
-  .contact__info-wrap h3,
-  .get__in-touch-wrap h3 {
-    margin: 0 0 24px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .contact__info-wrap.mb-60,
-  .get__in-touch-wrap.mb-60 {
-    margin-bottom: 13px;
-  }
-}
-
 .single__contact-info {
   background-color: #f7f7f7;
   padding: 48px 10px 49px;
@@ -3691,13 +3677,6 @@ textarea {
   padding: 2px 20px;
   margin-bottom: 30px;
   position: relative;
-}
-
-@media only screen and (max-width: 767px) {
-  .contact__from input,
-  .contact__from textarea {
-    margin-bottom: 20px;
-  }
 }
 
 .contact__from textarea {
