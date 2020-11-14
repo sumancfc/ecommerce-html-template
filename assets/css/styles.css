@@ -3594,3 +3594,129 @@ textarea {
 .grand__totall a:hover {
   background-color: #ff5151;
 }
+/* Cart Section End */
+
+/* Contact Section Starts */
+
+.contact__info-wrap h3,
+.get__in-touch-wrap h3 {
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 0 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact__info-wrap h3,
+  .get__in-touch-wrap h3 {
+    margin: 0 0 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contact__info-wrap.mb-60,
+  .get__in-touch-wrap.mb-60 {
+    margin-bottom: 13px;
+  }
+}
+
+.single__contact-info {
+  background-color: #f7f7f7;
+  padding: 48px 10px 49px;
+}
+
+.single__contact-info > i {
+  font-size: 36px;
+  color: #ff5151;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+
+.single__contact-info h4 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  margin: 19px 0 10px;
+}
+
+.single__contact-info p {
+  letter-spacing: 0.4px;
+  font-size: 15px;
+  color: #333;
+}
+
+.single__contact-info ul li {
+  border-bottom: 2px solid #fff;
+  letter-spacing: 0.4px;
+  margin-bottom: 30px;
+  padding-bottom: 33px;
+  font-size: 15px;
+}
+
+.single__contact-info ul li:last-child {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border-bottom: none;
+}
+
+.single__contact-info ul li i {
+  font-size: 18px;
+  margin-right: 7px;
+  color: #ff5151;
+  top: 3px;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: inline-block;
+}
+
+.single__contact-info ul li:hover i {
+  -webkit-animation: 500ms ease-in-out 0s normal none 1 running tada;
+  animation: 500ms ease-in-out 0s normal none 1 running tada;
+}
+
+.single__contact-info:hover > i {
+  -webkit-animation: 500ms ease-in-out 0s normal none 1 running tada;
+  animation: 500ms ease-in-out 0s normal none 1 running tada;
+}
+
+.contact__from input,
+.contact__from textarea {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: none;
+  color: #000;
+  height: 60px;
+  padding: 2px 20px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact__from input,
+  .contact__from textarea {
+    margin-bottom: 20px;
+  }
+}
+
+.contact__from textarea {
+  height: 200px;
+  padding: 20px 20px;
+}
+
+.contact__from button {
+  border: none;
+  background-color: transparent;
+  text-transform: capitalize;
+  background-color: #ff5151;
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+}
+
+.contact__from button:hover {
+  background-color: #000;
+}

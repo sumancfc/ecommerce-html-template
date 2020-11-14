@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wishlist | Ecommerce</title>
+    <title>Contact Us | Ecommerce</title>
     <link
       rel="shortcut icon"
       type="image/x-icon"
@@ -732,12 +732,12 @@
 >
   <div class="container">
     <div class="breadcrumb__content text-center">
-      <h2>Wishlist page</h2>
+      <h2>Contact page</h2>
       <ul>
         <li>
           <a href="index.html">Home</a>
         </li>
-        <li class="active">Wishlist</li>
+        <li class="active">Contact</li>
       </ul>
     </div>
   </div>
@@ -745,129 +745,74 @@
 
  <!-- Breadcrumb End-->
 
-<!-- Wishlist Section Start -->
-<div class="cart__main-area pt-85 pb-90">
+<!-- Contact Section Start -->
+<div class="contact__area pt-85">
     <div class="container">
-      <h3 class="cart__page-title">Your cart items</h3>
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-          
-            <div class="table-content table-responsive cart__table-content">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Image</th>
-                    <th>Product Name</th>
-                    <th>Until Price</th>
-                    <th>Qty</th>
-                    <th>Subtotal</th>
-                    <th>Add To Cart</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="product__thumbnail">
-                      <a href="#"
-                        ><img src="assets/images/cart/cart-1.png" alt=""
-                      /></a>
-                    </td>
-                    <td class="product__name">
-                      <a href="#">Demo Product Name</a>
-                    </td>
-                    <td class="product__price-cart">
-                      <span class="amount">$260.00</span>
-                    </td>
-                    <td class="product__quantity">
-                      <div class="cart__plus-minus">
-                        <input
-                          class="cart__plus-minus-box"
-                          type="text"
-                          name="qtybutton"
-                          value="2"
-                        />
-                      </div>
-                    </td>
-                    <td class="product__subtotal">$110.00</td>
-                    <td class="product__wishlist-cart">
-                      <a href="#">add to cart</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="product__thumbnail">
-                      <a href="#"
-                        ><img src="assets/images/cart/cart-2.png" alt=""
-                      /></a>
-                    </td>
-                    <td class="product__name">
-                      <a href="#">Demo Product Name</a>
-                    </td>
-                    <td class="product__price-cart">
-                      <span class="amount">$150.00</span>
-                    </td>
-                    <td class="product__quantity">
-                      <div class="cart__plus-minus">
-                        <input
-                          class="cart__plus-minus-box"
-                          type="text"
-                          name="qtybutton"
-                          value="2"
-                        />
-                      </div>
-                    </td>
-                    <td class="product__subtotal">$150.00</td>
-                    <td class="product__wishlist-cart">
-                      <a href="#">add to cart</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="product__thumbnail">
-                      <a href="#"
-                        ><img src="assets/images/cart/cart-3.png" alt=""
-                      /></a>
-                    </td>
-                    <td class="product__name">
-                      <a href="#">Demo Product Name</a>
-                    </td>
-                    <td class="product__price-cart">
-                      <span class="amount">$170.00</span>
-                    </td>
-                    <td class="product__quantity">
-                      <div class="cart__plus-minus">
-                        <input
-                          class="cart__plus-minus-box"
-                          type="text"
-                          name="qtybutton"
-                          value="2"
-                        />
-                      </div>
-                    </td>
-                    <td class="product__subtotal">$170.00</td>
-                    <td class="product__wishlist-cart">
-                      <a href="#">add to cart</a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+      <div class="contact__info-wrap mb-50">
+        <h3>contact info</h3>
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="single__contact-info text-center mb-30">
+              <i class="la la-map"></i>
+              <h4>our address</h4>
+              <p>Kathmandu, Nepal.</p>
             </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div
+              class="single__contact-info  text-center mb-30"
+            >
+              <ul>
+                <li><i class="la la-phone"></i> 977-01-4444444</li>
+                <li>
+                  <i class="la la-envelope"></i> <a href="#"> info@example.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="single__contact-info text-center mb-30">
+              <i class="la la-coffee"></i>
+              <h4>openning hour</h4>
+              <p>Monday - Friday. 9:00am - 5:00pm</p>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-lg-12">
-            <div class="cart__shiping-update-wrapper">
-                <div class="cart__shiping-update">
-                    <a href="#">Continue Shopping</a>
-                </div>
-                <div class="cart__clear">
-                    
-                    <a href="#">Clear Wishist</a>
-                </div>
+      <div class="get__in-touch-wrap">
+        <h3>Get In Touch</h3>
+        <div class="contact__from contact__shadow">
+          <form id="contact__form" action="" method="post">
+            <div class="row">
+              <div class="col-lg-6">
+                <input name="name" type="text" placeholder="Name" />
+              </div>
+              <div class="col-lg-6">
+                <input name="email" type="email" placeholder="Email" />
+              </div>
+              <div class="col-lg-12">
+                <input name="subject" type="text" placeholder="Subject" />
+              </div>
+              <div class="col-lg-12">
+                <textarea
+                  name="message"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <div class="col-lg-12">
+                <button class="submit" type="submit">Send Message</button>
+              </div>
             </div>
+          </form>
+          <p class="form__messege"></p>
         </div>
-     </div>
+      </div>
+      <div class="contact__map pt-90">
+        <div id="map"></div>
+      </div>
     </div>
   </div>
-     <!-- Wishlist Section End -->
+     <!-- Contact Section End -->
 
 
      <!-- Footer Section -->
