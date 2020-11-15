@@ -346,4 +346,32 @@
         sliderrange.slider("values", 1)
     );
   });
+
+  //checkout toggle
+  $(".customer__checkout").on("click", function (e) {
+    e.preventDefault();
+    $(".checkout__login-info").slideToggle(900);
+  });
+
+  $(".coupon__click").on("click", function (e) {
+    e.preventDefault();
+    $(".coupon__area").slideToggle(1000);
+  });
+
+  $(".checkout__toggle-1").on("click", function () {
+    $(".toggle__open").slideToggle(1000);
+  });
+
+  $(".checkout__toggle").on("click", function () {
+    $(".open__toggle").slideToggle(1000);
+  });
+
+  var checked = $(".payment__single input:checked");
+  if (checked) {
+    $(checked).siblings(".payment__box").slideDown(900);
+  }
+  $(".payment__single input").on("change", function () {
+    $(".payment__box").slideUp(900);
+    $(this).siblings(".payment__box").slideToggle(900);
+  });
 })(jQuery);
