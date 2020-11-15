@@ -4474,3 +4474,154 @@ textarea {
 .shop__sidebar-border {
   border-top: 1px solid #ebebeb;
 }
+
+/* Login Register Section */
+.login__register-wrapper .login__register-tab-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.login__register-wrapper .login__register-tab-list a {
+  position: relative;
+}
+
+.login__register-wrapper .login__register-tab-list a::before {
+  background-color: #454545;
+  bottom: 5px;
+  content: "";
+  height: 18px;
+  margin: 0 auto;
+  position: absolute;
+  right: -2px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  width: 1px;
+}
+
+.login__register-wrapper .login__register-tab-list a h4 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0 20px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+}
+
+.login__register-wrapper .login__register-tab-list a:last-child::before {
+  display: none;
+}
+
+.login__register-wrapper .login__register-tab-list a.active h4 {
+  color: #ff5151;
+}
+
+.login__register-wrapper .login__form-wrapper {
+  background: transparent none repeat scroll 0 0;
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  padding: 80px;
+  text-align: left;
+}
+
+.login__register-wrapper .login__form-wrapper .login__register-form form input {
+  background-color: transparent;
+  border: 1px solid #ebebeb;
+  font-size: 14px;
+  height: 50px;
+  margin-bottom: 30px;
+  padding: 0 15px;
+  color: #010225;
+}
+
+.login__register-wrapper
+  .login__form-wrapper
+  .login__register-form
+  form
+  input[type="checkbox"] {
+  height: 15px;
+  margin: 0;
+  position: relative;
+  top: 2px;
+  width: 17px;
+  color: #010225;
+}
+
+.login__register-wrapper
+  .login__form-wrapper
+  .login__register-form
+  form
+  .button__box
+  .login__toggle-btn {
+  padding: 10px 0 19px;
+}
+
+.login__register-wrapper
+  .login__form-wrapper
+  .login__register-form
+  form
+  .button__box
+  .login__toggle-btn
+  label {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.login__register-wrapper
+  .login__form-wrapper
+  .login__register-form
+  form
+  .button__box
+  .login__toggle-btn
+  a {
+  float: right;
+  font-size: 15px;
+  color: #010225;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.login__register-wrapper
+  .login__form-wrapper
+  .login__register-form
+  form
+  .button__box
+  .login__toggle-btn
+  a:hover {
+  color: #ff5151;
+}
+
+.login__register-wrapper
+  .login__form-wrapper
+  .login__register-form
+  form
+  .button__box
+  button {
+  background-color: #ff5151;
+  color: #fff;
+  border: medium none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 13px 30px 13px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.login__register-wrapper
+  .login__form-wrapper
+  .login__register-form
+  form
+  .button__box
+  button:hover {
+  background-color: #010225;
+}
