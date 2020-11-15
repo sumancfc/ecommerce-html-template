@@ -997,6 +997,14 @@
   .compare__table .table tbody tr td.product__img-title {
     min-width: 220px;
   }
+
+  #myaccountContent {
+    margin-top: 30px;
+  }
+
+  .account__content {
+    padding: 20px 15px;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
