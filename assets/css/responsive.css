@@ -265,6 +265,11 @@
   .order__area {
     padding: 40px 25px 50px;
   }
+
+  .error h1 {
+    font-size: 15rem;
+    margin-bottom: 4px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -475,6 +480,10 @@
 
   .order__area {
     margin-top: 30px;
+  }
+
+  .error h1 {
+    font-size: 12rem;
   }
 }
 
@@ -1005,6 +1014,15 @@
   .account__content {
     padding: 20px 15px;
   }
+
+  .error h1 {
+    font-size: 7rem;
+    line-height: 88px;
+  }
+
+  .searchform.mb-50 {
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1041,5 +1059,10 @@
 
   .shop__list-wrap .shop__list-content {
     margin-top: 0px;
+  }
+
+  .error h1 {
+    font-size: 9rem;
+    line-height: 100px;
   }
 }
