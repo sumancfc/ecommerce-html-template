@@ -374,4 +374,55 @@
     $(".payment__box").slideUp(900);
     $(this).siblings(".payment__box").slideToggle(900);
   });
+
+  //product details image slide
+  $(".product__dec-slider").slick({
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    prevArrow:
+      '<span class="product-dec-icon product-dec-prev"><i class="la la-angle-left"></i></span>',
+    nextArrow:
+      '<span class="product-dec-icon product-dec-next"><i class="la la-angle-right"></i></span>',
+    responsive: [
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
+
+  $(".zoompro").elevateZoom({
+    gallery: "gallery",
+    galleryActiveClass: "active",
+    zoomWindowWidth: 300,
+    zoomWindowHeight: 100,
+    scrollZoom: false,
+    zoomType: "inner",
+    cursor: "crosshair",
+  });
 })(jQuery);
